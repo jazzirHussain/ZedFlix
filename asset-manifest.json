@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ZedFlix/static/css/main.08c90963.chunk.css",
-    "main.js": "/ZedFlix/static/js/main.faf296a0.chunk.js",
-    "main.js.map": "/ZedFlix/static/js/main.faf296a0.chunk.js.map",
+    "main.js": "/ZedFlix/static/js/main.e4ea163d.chunk.js",
+    "main.js.map": "/ZedFlix/static/js/main.e4ea163d.chunk.js.map",
     "reactPlayerDailyMotion.js": "/ZedFlix/static/js/reactPlayerDailyMotion.e557627b.chunk.js",
     "reactPlayerDailyMotion.js.map": "/ZedFlix/static/js/reactPlayerDailyMotion.e557627b.chunk.js.map",
     "reactPlayerFacebook.js": "/ZedFlix/static/js/reactPlayerFacebook.9e77166d.chunk.js",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.4a5beae9.js",
     "static/js/15.d7788684.chunk.js",
     "static/css/main.08c90963.chunk.css",
-    "static/js/main.faf296a0.chunk.js"
+    "static/js/main.e4ea163d.chunk.js"
   ]
 }
