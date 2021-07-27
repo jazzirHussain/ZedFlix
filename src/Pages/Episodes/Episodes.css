@@ -1,0 +1,76 @@
+body{
+    background-color: #111;
+    box-sizing: border-box;
+}
+.top{
+    padding-top: 9em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards{
+    cursor: pointer;
+    margin-top: 1em;
+    height: 15em;
+    width: 80%;
+    background-color: rgba(51, 51, 51, .5);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+    transition: 1s;
+
+}
+.cards:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+.ssn-img{
+    box-sizing: border-box;
+    padding: 5px;
+    width: 20%;
+    height: 15em;
+    float: left;
+}
+.ssn-cont{
+    width: 80%;
+    height: 15em;
+    float: left;
+}
+.ssn-img img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.epi-name{
+    width: 100%;
+    box-sizing: border-box;
+    height: 50%;
+    padding: 10px;
+    border-bottom: 1px solid #454242;
+    float: left;
+}
+.epi-detail{
+    float: left;
+    height: 50%;
+    padding: 10px;
+}
+.epi-name p span:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media only screen and (max-width:800px){
+    .ssn-cont{
+        width: 100%;
+    }
+    .ssn-img{
+        display: none;
+    }
+    .epi-detail{
+        text-overflow: ellipsis;
+        overflow:hidden;
+    }
+}

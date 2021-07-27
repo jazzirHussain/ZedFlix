@@ -1,0 +1,45 @@
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    transition: .5s;
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 130px;
+}
+
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+.nav-link{
+    position: fixed;
+    right: 70px;
+    color: #8c1115;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 1;
+    transition: .5s;
+}
+.nav-link:hover{
+    transform: scale(1.05);
+    opacity: .8;
+    transition: .5s;
+    
+}
+.nav_chnged{
+    background-color: black;
+    transition: ease-out;
+    transition-duration: .5s;
+}

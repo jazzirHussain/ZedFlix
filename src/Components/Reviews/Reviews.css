@@ -1,0 +1,97 @@
+
+body{
+    color: white;
+}
+div{
+    box-sizing: border-box;
+}
+.rev{
+    
+    display: inline-block;
+    width: 70%;
+    color: white;
+    text-align: justify;
+    border-bottom:1px solid #50505075 ;
+    padding: 10px;
+    
+}
+.rev-top{
+    padding-left: 50px;
+    margin-bottom: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.auth-avatar{
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    float: left;
+    height: 100%;
+    width: 7%;
+    
+}
+.auth-name{
+    padding: 5px;
+    float: left;
+    width: 93%;
+    box-sizing: border-box;
+}
+.review{
+    float: left;
+    width: 93%;
+    padding: 5px;
+}
+.auth-avatar img{
+    width: 100%;
+    border-radius: 50%;
+    height: 4em;
+}
+.Collapsible{
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1em;
+    
+}
+
+.Collapsible__contentOuter{
+    width: 100%;
+
+}
+.Collapsible span{
+    opacity: 1;
+    transition: .5s;
+    /* width: 70%; */
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+.Collapsible span:hover{
+    opacity: .5;
+    transition: .5s;
+}
+.no_rev{
+    padding-left: 20px;
+}
+@media only screen and (max-width:1080px){
+    .rev-top{
+        padding-left: 0;
+    }
+    .rev-top h1{
+        padding-left: 50px;
+    }
+    .rev{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .auth-avatar{
+        display: none;
+    }
+    .Collapsible__trigger{
+        padding-left: 50px;
+    }
+}

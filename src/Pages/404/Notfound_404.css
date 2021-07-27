@@ -1,0 +1,9 @@
+.content_fnd{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    
+}
+.content_fnd h1{
+    color: #a6161c;
+}

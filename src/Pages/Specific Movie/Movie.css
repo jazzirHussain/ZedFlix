@@ -1,0 +1,13 @@
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+.video iframe{
+    box-shadow: 0 0 12px 9px #00000070;
+    border-top: 3px solid rgb(159, 31, 31);
+    border-bottom: 3px solid rgb(159, 31, 31);
+    border-radius: 10px;
+    
+}
