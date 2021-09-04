@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ZedFlix/static/css/main.08c90963.chunk.css",
+    "main.css": "/ZedFlix/static/css/main.f9e5db94.chunk.css",
     "main.js": "/ZedFlix/static/js/main.e4ea163d.chunk.js",
     "main.js.map": "/ZedFlix/static/js/main.e4ea163d.chunk.js.map",
     "reactPlayerDailyMotion.js": "/ZedFlix/static/js/reactPlayerDailyMotion.e557627b.chunk.js",
@@ -34,13 +34,13 @@
     "static/js/15.d7788684.chunk.js": "/ZedFlix/static/js/15.d7788684.chunk.js",
     "static/js/15.d7788684.chunk.js.map": "/ZedFlix/static/js/15.d7788684.chunk.js.map",
     "index.html": "/ZedFlix/index.html",
-    "static/css/main.08c90963.chunk.css.map": "/ZedFlix/static/css/main.08c90963.chunk.css.map",
+    "static/css/main.f9e5db94.chunk.css.map": "/ZedFlix/static/css/main.f9e5db94.chunk.css.map",
     "static/js/15.d7788684.chunk.js.LICENSE.txt": "/ZedFlix/static/js/15.d7788684.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a5beae9.js",
     "static/js/15.d7788684.chunk.js",
-    "static/css/main.08c90963.chunk.css",
+    "static/css/main.f9e5db94.chunk.css",
     "static/js/main.e4ea163d.chunk.js"
   ]
 }
