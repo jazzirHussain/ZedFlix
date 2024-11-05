@@ -18,3 +18,9 @@ Welcome to the Online OTT Platform, a modern streaming service developed using *
   - Firebase Storage
   - Firestore for database management
 - **Payment Gateway**: Integrated for subscription payments
+
+  ![Interface](ss1.png)
+
+  ![Interface](ss2.png)
+
+  ![Interface](ss3.png)
